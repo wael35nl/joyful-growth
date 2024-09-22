@@ -1,0 +1,43 @@
+form {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 1.5rem;
+}
+
+label, input, textarea, button {
+    color: rgb(245, 222, 179);
+}
+
+input, textarea {
+    background-color: rgb(79, 18, 234);
+    border: none;
+    border-radius: 1rem;
+    padding: 0.25em;
+    font-size: 2rem;
+}
+
+textarea {
+    resize: none;
+}
+
+.form_controls {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form_controls button {
+    width: 33%;
+    background-color: rgb(79, 18, 234);
+    font-size: 2rem;
+    border-radius: 1rem;
+    padding: 0.25em;
+    border: none;
+    box-shadow: 1px 1px 0 0 rgb(245, 222, 179);
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.form_controls button:hover {
+    opacity: 1;
+}

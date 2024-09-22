@@ -1,0 +1,105 @@
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-family: fantasy;
+    font-size: 3rem;
+    color: rgb(255, 215, 0);
+    border-bottom: 2px solid rgb(255, 165, 0);
+}
+
+.logo img {
+    width: 2.75rem;
+    height: 2rem;
+}
+
+.logo span:nth-child(2), .logo span:nth-child(10) {
+    font-size: 2.75rem;
+}
+
+.logo span:nth-child(4), .logo span:nth-child(9) {
+    font-size: 2.5rem;
+}
+
+.logo span:nth-child(5), .logo span:nth-child(8) {
+    font-size: 2.25rem;
+}
+
+.logo span:nth-child(6), .logo span:nth-child(7) {
+    font-size: 2rem;
+}
+
+header nav p {
+    color: rgb(255, 215, 0);
+    border-bottom: 2px solid rgb(255, 165, 0);
+    border-radius: 1rem;
+    padding: 0 0.15em;
+    padding-bottom: 0.05em;
+    transition: 0.5s;
+}
+
+header nav p:hover, .current_page {
+    background-color: rgba(255, 165, 0, .3);
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer div {
+    width: 25%;
+    height: 99%;
+    text-align: center;
+}
+
+footer div:nth-child(2) {
+    width: 40%;
+}
+
+footer div h2, footer div a {
+    font-size: 3rem;
+}
+
+footer div a {
+    display: block;
+}
+
+footer div a:nth-child(2) {
+    margin-top: 0.75rem;
+}
+
+footer div a:not(:last-child) {
+    margin-bottom: 0.75rem;
+}
+
+footer div p {
+    font-size: 1.75rem;
+    line-height: 1.75rem;
+}
+
+footer div p:nth-child(2) {
+    margin-top: 1rem;
+}
+
+footer div p:not(:last-child) {
+    margin-bottom: 1.5rem;
+}
